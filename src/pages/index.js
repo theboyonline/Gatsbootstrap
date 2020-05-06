@@ -11,12 +11,16 @@ const IndexPage = () => (
   
 
   <div>
-    <Header></Header>
+
     <Container>
       <Row>
         <Col>
+        <Header></Header>
     <h1>Hi from the home page</h1>
+    <button className="btn btn-primary" type="button">Button</button>
+    <Col>
     <Link to="/page-2">Go to page 2</Link>
+        </Col>
         </Col>
       </Row>
     </Container>
