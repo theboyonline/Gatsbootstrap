@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Col, Row} from "react-bootstrap"
-import Header from "../../components/header"
+import Header from "../components/header"
 //scss
 import "../styles/styles.scss"
 
