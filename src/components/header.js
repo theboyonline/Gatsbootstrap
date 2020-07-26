@@ -1,14 +1,19 @@
 import React from "react";
+import { Col, Row} from "react-bootstrap"
 
 export default class Header extends React.Component {
   render() {
     return (
-      
-      <header className="header">
-        
-        <h1> Hello there </h1>
-        
-      </header>
+
+<div>
+  <Row>
+    <Col>
+    Read
+    </Col>
+  </Row>
+</div>
+
     );
   }
 }
+
